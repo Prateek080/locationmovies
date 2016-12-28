@@ -1,0 +1,31 @@
+{
+  "name": "pharm",
+  "version": "0.0.0",
+  "private": true,
+  "scripts": {
+    "start": "nodemon ./bin/www"
+  },
+  "dependencies": {
+    "body-parser": "~1.15.1",
+    "cookie-parser": "~1.4.3",
+    "debug": "~2.2.0",
+    "ejs": "~2.3.3",
+    "express": "~4.13.4",
+    "express-jwt": "^3.3.0",
+    "geocoder": "^0.2.2",
+    "glob": "^6.0.4",
+    "jade": "~1.11.0",
+    "jshint": "^2.9.1",
+    "jsonwebtoken": "^5.7.0",
+    "mongoose": "^4.4.6",
+    "morgan": "~1.7.0",
+    "node-geocoder": "^3.15.2",
+    "q": "^1.4.1",
+    "request": "^2.79.0",
+    "serve-favicon": "~2.3.0",
+    "socket.io-client": "^1.7.1"
+  },
+  "devDependencies": {
+    "nodemon": "^1.11.0"
+  }
+}
